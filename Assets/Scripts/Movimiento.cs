@@ -7,10 +7,8 @@ public class Movimiento : MonoBehaviour
 
     void Start()
     {
-        // 2. Obtener el componente que está en el mismo objeto
         spriteRenderer = GetComponent<SpriteRenderer>();
     }
-    // Update is called once per frame
     void Update()
         {
             if(Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
